@@ -6,15 +6,18 @@ public class Game {
     private Window myWin;
     private Panel myPanel;
     private JFrame myFrame;
+
     public Game(){
         myWin = new Window();
         this.myPanel = new Panel();
         this.myFrame = myWin.get_JFrame();
         this.myFrame.add(this.myPanel);
+        this.myFrame.addKeyListener(this.myPanel.get_KeyHandler());
+        this.myFrame.setFocusable(true);
         this.myFrame.pack();
-
     }
     public void runGame(){
         this.myPanel.startGameThread();
     }
+
 }

@@ -3,4 +3,5 @@ MainClass.class
 Game.class
 Window.class
 Panel.class
+KeyHandler.class
 run
