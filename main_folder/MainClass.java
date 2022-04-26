@@ -4,6 +4,7 @@ import MyGame.Game;
 
 public class MainClass {
     public static void main(String[] args){
-        Game newgame = new Game();
+        Game newGame = new Game();
+        newGame.runGame();
     }
 }
