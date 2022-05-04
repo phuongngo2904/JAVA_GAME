@@ -1,9 +1,4 @@
 .vscode
-MainClass.class
-Game.class
-Window.class
-Panel.class
-KeyHandler.class
-Entity.class
-Player.class
-run
+/out
+.idea
+JAVA_GAME.iml
